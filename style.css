@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif; 
+}
+/*body{
+    background-image:url(images/background2.jpg);
+    background-image:linear-gradient(white,lightblue);
+}*/
+.container{
+    width:100%;
+    min-height:50px;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing:border-box;
+    background-color:rgb(255, 249, 224);
+}
+.navbar{
+    width:100%;
+    display:flex;
+    align-items:center;
+    /*position:sticky;
+    top:0;
+    cursor:pointer;*/
+}
+.logo{
+    width:70px;
+    cursor:pointer;
+    margin:30px,0;
+}
+nav{
+    flex:1;
+    text-align:right;
+    background-color:honeydew;
+    padding:10px;
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    font-size:14px;
+}
+nav ul li a:hover{
+    color:purple;
+}
+.row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:100px 0;
+}
+.col-1{
+    flex-basis:40%;
+    position:relative;
+    margin-left:50px;
+    color:palevioletred;
+    font-family:sans-serif;
+}
+.col-1 h2{
+    font-size:54px; 
+}
+.col-1 h3{
+    font-size:30px;
+    color:darksalmon;
+    font-weight:100;
+    margin:20px 0 10px;
+}
+.col-1 p{
+    font-size:16px;
+    color:darksalmon;
+    font-weight:100;
+}
+.col-1 h4{
+    font-size:30px 0;
+    font-size:20px;
+}
+button{
+    width:140px;
+    border:0;
+    padding:12px 10px;
+    outline:none;
+    color:white;
+    background:linear-gradient(to right,#fb5283,#fb3257);
+    border-radius:6px;
+    cursor:pointer;
+}
+.col-2{
+    position:relative;
+    flex-basis:60%;
+    display:flex;
+    align-items:center;
+}
+.col-2.control{
+    width:90%;
+}
+.section{
+    font-size:60px;
+    color:mediumpurple;
+}
+.secright{
+    background-color:peachpuff;
+}
+.sectionsubtag{
+    font-size:30px;
+    color:royalblue;
+}
+.img-fluid{
+    width:40px;
+    height:25px;
+}
+.contact{
+    background-color:peachpuff;
+    height:800px;
+}
+.text-center{
+    text-align:center;
+    font-family:sans-serif;
+    font-size:45px;
+    color:salmon;
+    padding:30px;
+}
+.form{
+    max-width:500px;
+    margin:auto;
+}
+.form-input{
+    margin:21px 0;
+    padding:5px 3px;
+    width:100%;
+    font-size:19px;
+    border:2px solid grey;
+    border-radius:6px;
+}
+.text-footer{
+    text-align:center;
+    font-family:sans-serif;
+    padding:30px; 
+}
+
+
